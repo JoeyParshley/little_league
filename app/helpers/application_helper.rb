@@ -1,6 +1,6 @@
 module ApplicationHelper
   def full_title(page_title)
-    base_title = "Little League Team Manager"
+    base_title = "Team Manager"
     if page_title.empty?
       base_title
     else
