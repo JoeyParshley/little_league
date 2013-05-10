@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.13'
 gem 'bootstrap-sass','2.1'
 gem 'awesome_print'
+gem 'bcrypt-ruby', '3.0.1'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -36,6 +37,7 @@ end
 
 group :development do
   gem 'better_errors'
+  gem 'annotate', '2.5.0'
 end
 
 gem 'debugger'
